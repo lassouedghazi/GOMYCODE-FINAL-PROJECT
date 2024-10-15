@@ -15,6 +15,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from googletrans import Translator
 from io import StringIO
+nltk.download('punkt', quiet=True)  # Quietly download the Punkt tokenizer
+from nltk.tokenize import sent_tokenize
 # Path to your logo file
 
 LOGO_PATH = "output (1).jpg"
