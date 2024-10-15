@@ -29,7 +29,7 @@ st.image(LOGO_PATH)  # Adjust the width as needed
 st.logo(LOGO_PATH)
 
 
-USER_CSV = r'C:\Users\msi\Desktop\data_science_instructor\USER.csv'
+USER_CSV = "USER_CSV"
 # Load user credentials from CSV
 def load_users():
     if os.path.exists(USER_CSV):
