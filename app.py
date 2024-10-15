@@ -17,7 +17,7 @@ from googletrans import Translator
 from io import StringIO
 # Path to your logo file
 
-LOGO_PATH = r"C:\Users\msi\Desktop\data_science_instructor\output (1).jpg"
+LOGO_PATH = "output (1).jpg"
 
 
 # Display the logo at the top of the app with a smaller size
